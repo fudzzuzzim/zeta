@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header {
+  background-color: #ADFF2F;
+  -webkit-box-shadow: 0px 5px 10px #191919;
+          box-shadow: 0px 5px 10px #191919;
+  position: relative;
+  z-index: 10;
+}
+
+header .head {
+  position: relative;
+}
+
+header .head .head__container {
+  width: 100%;
+  height: 96.49px;
+}
+
+header .head .head__container .head__navbar {
+  position: relative;
+  top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header .head .head__container .head__navbar .head__element {
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+header .head .head__container .head__navbar .head__element a {
+  color: #000000;
+  text-decoration: none;
+}
+
+main {
+  background: #091115;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+main .intro {
+  position: relative;
+  width: 100%;
+  height: 808.11px;
+}
+
+main .intro .intro__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .intro .intro__container .intro__allText {
+  position: relative;
+  top: 200px;
+  z-index: 2;
+}
+
+main .intro .intro__container .intro__allText .intro__title {
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+main .intro .intro__container .intro__allText .intro__subtitle {
+  font-family: 'Poiret One';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+main .page-video {
+  position: absolute;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 914px;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+main .page-video .video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 914px;
+}
+
+main .page-video:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+main .kirchez__container {
+  position: relative;
+  height: 500px;
+  max-width: 100%;
+}
+
+main .kirchez__container .kirchez__main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 500px;
+  max-width: 100%;
+  margin-top: 84px;
+  margin-right: 65px;
+}
+
+main .kirchez__container .kirchez__main .kirchez__alltext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-right: 38px;
+}
+
+main .kirchez__container .kirchez__main .kirchez__alltext .kirchez__nickname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 35px;
+  width: 113;
+  font-family: 'Bebas Neue';
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 204px;
+  margin-left: 205px;
+  color: white;
+}
+
+main .kirchez__container .kirchez__main .kirchez__alltext .kirchez__nickname .kirchez__aka {
+  font-family: 'Bebas Neue';
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+
+main .kirchez__container .kirchez__main .kirchez__alltext .kirchez__fullname {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  margin-left: 535px;
+}
+
+main .kirchez__container .kirchez__main .kirchez__alltext .kirchez__description {
+  width: 590px;
+  height: 300px;
+  font-family: 'Poiret One';
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+  margin-left: 537px;
+}
+
+main .kirchez__container .kirchez__main .kirchez__avatar {
+  width: 401px;
+  height: 379px;
+  border-radius: 40px;
+  margin-top: 85px;
+}
+
+main .leva__container {
+  position: relative;
+  height: 500px;
+  max-width: 100%;
+}
+
+main .leva__container .leva__main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: 500px;
+  max-width: 100%;
+  margin-left: 65px;
+  margin-top: 100px;
+}
+
+main .leva__container .leva__main .leva__alltext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: 38px;
+}
+
+main .leva__container .leva__main .leva__alltext .leva__nickname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  height: 35px;
+  width: 113;
+  font-family: 'Bebas Neue';
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  margin-top: 104px;
+  margin-right: 537px;
+}
+
+main .leva__container .leva__main .leva__alltext .leva__nickname .leva__aka {
+  font-family: 'Bebas Neue';
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+
+main .leva__container .leva__main .leva__alltext .leva__fullname {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+main .leva__container .leva__main .leva__alltext .leva__description {
+  width: 590px;
+  height: 300px;
+  font-family: 'Poiret One';
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+main .leva__container .leva__main .leva__alltext .leva__avatar {
+  width: 401px;
+  height: 379px;
+  border-radius: 40px;
+}
+
+main .line2 {
+  height: 700px;
+}
+
+main .sunsetik__container {
+  position: relative;
+  bottom: 149px;
+  height: 500px;
+  max-width: 100%;
+}
+
+main .sunsetik__container .sunsetik__main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 500px;
+  max-width: 100%;
+  margin-top: 200px;
+  margin-right: 65px;
+}
+
+main .sunsetik__container .sunsetik__main .sunsetik__alltext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-right: 38px;
+}
+
+main .sunsetik__container .sunsetik__main .sunsetik__alltext .sunsetik__nickname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 35px;
+  width: 113;
+  font-family: 'Bebas Neue';
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 104px;
+  margin-left: 115px;
+  color: white;
+}
+
+main .sunsetik__container .sunsetik__main .sunsetik__alltext .sunsetik__nickname .sunsetik__aka {
+  font-family: 'Bebas Neue';
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+
+main .sunsetik__container .sunsetik__fullname {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  margin-left: 535px;
+}
+
+main .sunsetik__container .sunsetik__description {
+  width: 590px;
+  height: 300px;
+  font-family: 'Poiret One';
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+  margin-left: 537px;
+}
+
+main .sunsetik__avatar {
+  width: 401px;
+  height: 379px;
+  border-radius: 40px;
+  margin-top: 85px;
+}
+
+footer {
+  position: relative;
+}
+
+footer .footer {
+  position: relative;
+  width: 100%;
+  height: 264px;
+  background-color: #191919;
+}
+
+footer .footer .footer__container .footer__allText {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  top: 58px;
+  color: white;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 38px;
+}
+
+footer .footer .footer__container .footer__allText .logicool {
+  margin-left: 150px;
+  height: 200px;
+}
+
+footer .footer .footer__container .footer__allText .footer__madeBy .footer__nick {
+  font-family: 'Poiret One';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 17px;
+}
